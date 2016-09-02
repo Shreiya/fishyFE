@@ -1,7 +1,16 @@
 .App {
-  background: url("http://giphy.com/gifs/13pCqQdBzxnTTq/html5");
+  background: url("http://i.giphy.com/13pCqQdBzxnTTq.gif");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  text-align: center;
+}
+
+.landingPage:hover {
+  background-color: orange;
+}
+
+.landingPage {
+  font-size: 20px;
 }
