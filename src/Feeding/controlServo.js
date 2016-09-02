@@ -32,6 +32,16 @@ checkIfUser() {
 
 componentDidMount() {
   this.checkIfUser(this.state.userId)
+  Notification.requestPermission();
+  if (Notification.permission !== 'denied' || Notification.permission === "default") {
+    Notification.requestPermission(function (permission) {
+      // If the user accepts, let's create a notification
+      if (permission === "granted") {
+        var notification = new Notification("Feeding time Buddy!");
+      }
+    });
+  }
+
 }
 
 // servoMe(e) {
