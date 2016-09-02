@@ -10,7 +10,7 @@ class deadFish extends Component{
   render(){
     return(
       <div>
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs" id="deadFishy">
         <li role="presentation" className="landingPage"><Link to="/">|Home|</Link></li>
         <li role="presentation" className="landingPage"><Link to="/sign-up">|Sign Up|</Link></li>
         <li role="presentation" className="landingPage"><Link to="/sign-in">|Sign In|</Link></li>

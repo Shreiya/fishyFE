@@ -12,7 +12,7 @@
 
 
 
-a .nav > li.landingPage{
+.nav .landingPage{
   margin-left: 5px;
   background-color: #46C2FF;
 }

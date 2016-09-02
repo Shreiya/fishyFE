@@ -12,9 +12,13 @@
   background-color: orange;
 }
 
-.landingPage {
+#deadFishy {
   font-size: 13.5px;
   font-family: 'Press Start 2P';
   color: black;
-  background-color: darkgrey;
+  background-color: #ABB1BD;
+}
+
+#deadFishy a {
+  background-color: #ABB1BD;
 }

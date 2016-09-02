@@ -10,3 +10,7 @@
   color: darkblue;
   font-size: 20px
 }
+
+#aboutMe a {
+  background-color: white;
+}

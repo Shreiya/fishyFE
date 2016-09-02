@@ -12,13 +12,9 @@
 }
 
 
-a #signInUl > li.landingPaga{
+#signInUl a > li.landingPaga{
     font-size: 13.5px;
     font-family: 'Press Start 2P';
     margin-left: 70px;
     background-color: #black;
   }
-
-a {
-  background-color: black;
-}

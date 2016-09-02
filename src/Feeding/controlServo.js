@@ -63,7 +63,7 @@ render() {
   }
   return (
     <div className="controlServo">
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs" id="servoStuff">
         <li role="presentation" className="landingPage"><Link to="/">|Home|</Link></li>
         <li role="presentation" className="landingPage"><Link to="/giphy-time">|Get Fishies with Giphy|</Link></li>
         <li role="presentation" className="landingPage"><Link to="/deadFish">          |What happens when you don't feed fishy|</Link></li>
