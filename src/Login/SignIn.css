@@ -1,0 +1,24 @@
+.SignInBox {
+  background: url("http://i.giphy.com/AStDCiEVpDarm.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  font-family: 'Press Start 2P';
+  color: white;
+  font-size: 20px
+}
+
+
+a #signInUl > li.landingPaga{
+    font-size: 13.5px;
+    font-family: 'Press Start 2P';
+    margin-left: 70px;
+    background-color: #black;
+  }
+
+a {
+  background-color: black;
+}

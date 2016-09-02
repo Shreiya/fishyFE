@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import fishyGiphy from '../utilities/helpers';
-
+import './giphy.css';
+import {Link} from 'react-router';
 class viewSaved extends Component {
 
   constructor(props){
@@ -14,7 +15,6 @@ class viewSaved extends Component {
   }
 
   handleClick(event){
-    event.preventDefault()
     console.log("click");
 
 
@@ -44,6 +44,10 @@ class viewSaved extends Component {
     })
   }
 
+    componentDidMount(){
+      this.handleClick();
+    }
+
   render(){
     const urls = []
     const keys = []
@@ -55,8 +59,14 @@ class viewSaved extends Component {
         obj.push(result[url])
     }
     return(
-      <div>
-        <button onClick={(event) => this.handleClick(event, result)}>View All!</button>
+      <div className="giphy">
+        <ul className="nav nav-tabs">
+          <li role="presentation" className="landingPage"><Link to="/">|Home|</Link></li>
+          <li role="presentation" className="landingPage"><Link to="/sign-up">|Sign Up|</Link></li>
+          <li role="presentation" className="landingPage"><Link to="/sign-in">|Sign In|</Link></li>
+          <li role="presentation" className="landingPage"><Link to="/about">|About|</Link></li>
+            <li role="presentation" className="landingPage"><Link to="/deadFish">|What happens when you don't feed fishy|</Link></li>
+        </ul>
         <div>
           {
             obj.map((res, index) => {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import helpers from '../utilities/authHelper';
 import { Link } from 'react-router';
+import './SignIn.css';
 
 
 class SignIn extends Component {
@@ -25,6 +26,11 @@ class SignIn extends Component {
   render() {
     return(
       <div className="SignInBox">
+        <ul className="nav nav-tabs" id="signInUl">
+          <li role="presentation" className="landingPaga"><Link to="/">|Home|</Link></li>
+          <li role="presentation" className="landingPaga"><Link to="/giphy-time">|Get Fishies with Giphy|</Link></li>
+          <li role="presentation" className="landingPaga"><Link to="/deadFish">          |What happens when you don't feed fishy|</Link></li>
+        </ul>
         <h1>Log In!</h1>
         <form className="form-inline">
           <div className="form-group">

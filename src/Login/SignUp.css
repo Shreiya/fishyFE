@@ -1,0 +1,17 @@
+.SignUp {
+  background: url("http://i.giphy.com/CotH6V1lyJCzm.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  font-family: 'Press Start 2P';
+  color: #673B99;
+  font-size: 20px
+}
+
+.nav > li{
+  margin-left: 10px;
+  background-color: #38CFD1;
+}

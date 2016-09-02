@@ -5,6 +5,16 @@
   width: 100vw;
   height: 100vh;
   text-align: center;
+
+  font-family: 'Press Start 2P';
+  color: #DD8500;
+}
+
+
+
+a .nav > li.landingPage{
+  margin-left: 5px;
+  background-color: #46C2FF;
 }
 
 .landingPage:hover {
@@ -12,5 +22,5 @@
 }
 
 .landingPage {
-  font-size: 20px;
+  font-size: 13.5px;
 }

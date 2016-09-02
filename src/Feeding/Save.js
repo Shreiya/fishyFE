@@ -22,7 +22,7 @@ class Save extends Component{
   render(){
     return(
       <div>
-        <button onClick={(event) => this.handleClick(event)}>Save me</button>
+        <button type="submit" className="btn btn-default" onClick={(event) => this.handleClick(event)}>Save me</button>
       </div>
     )
   }

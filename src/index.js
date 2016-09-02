@@ -8,6 +8,7 @@ import signIn from './Login/SignIn';
 import about from './Static/about';
 import controlServo from './Feeding/controlServo';
 import viewSaved from './Feeding/viewSaved';
+import deadFish from './Feeding/deadFish';
 import './index.css';
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
           <Route path="/about" component={about} />
           <Route path="/controlServo" component={controlServo} />
           <Route path="/viewSaved" component={viewSaved} />
+          <Route path="/deadFish" component={deadFish} />
   </Router>
   ,document.getElementById('root')
 );

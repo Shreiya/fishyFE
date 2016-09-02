@@ -1,0 +1,12 @@
+.giphy {
+  background: url("http://i.giphy.com/Zv0yfpTpJ6BI4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  font-family: 'Press Start 2P';
+  color: darkblue;
+  font-size: 20px
+}

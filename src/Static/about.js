@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './about.css';
 
 class about extends Component {
 
   render() {
     return(
-      <div>
-      HI
+      <div className="hiro">
+
       </div>
     )
   }
