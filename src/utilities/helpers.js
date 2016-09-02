@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const fishyGiphy = {
   showRandom : function(){
-    return axios.get('https://sheltered-citadel-45322.herokuapp.com/giphy');
+    return axios.get("https://sheltered-citadel-45322.herokuapp.com/giphy")
   },
 
   saveThis : function(data){
